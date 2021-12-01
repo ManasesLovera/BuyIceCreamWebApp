@@ -1,0 +1,33 @@
+* {
+    font-family: sans-serif;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+h3 {
+    color: #00f;
+}
+b {
+    color: #ff9100;
+}
+#compra {
+    display:flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+input {
+    width: 30px;
+}
+.btn{
+    padding: 3px;
+    border: 1px solid #0a0;
+    color: #0a0;
+    transition: all 0.12s linear;
+    width: 117px;
+}
+.btn:hover{
+    color: #fff;
+    background: #0a0;
+    cursor:pointer;
+}

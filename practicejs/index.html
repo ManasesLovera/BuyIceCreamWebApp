@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img.jpg">
+    <title>Comprar Helado</title>
+</head>
+<body>
+    <main>
+        <div id="compra">
+            <form action="SP">
+                <h3>Sabor del helado</h3>
+                <p>1. fresa</p> 
+                <p>2. tamarindo</p>
+                <p>3. chocolate</p>
+                <input type="number" id="sabor" min="1" max="3">
+            </form>
+            <form action="TH">
+                <h3>Tamaño del helado</h3>
+                <p>1. pequeño</p> 
+                <p>2. mediano</p>
+                <p>3. grande</p>
+                <p>4. extra grande</p>
+                <input type="number" id="tamaño" min="1" max="4">
+            </form><br>
+            <span class="btn" id="btn">Comprar helado</span>
+        </div>
+        <div id="resultado">
+            <p><b>Cantidad de helados vendidos:</b> 0</p>
+
+            <p><b>Cantidad de helados vendidos por sabor de helado:</b> <br>
+            fresa: 0<br>
+            Tamarindo: 0<br>
+            Chocolate: 0
+            </p>
+
+            <p><b>Cantidad vendidos por tamaño del helado:</b> <br>
+                pequeño: 0<br>
+                mediano: 0<br>
+                grande: 0<br>
+                extra grande: 0<br>
+                </p>
+
+            <p><b>Cantidad en peso vendidos por tamaño del helado:</b> <br>
+            pequeño: 0 gr<br>
+            mediano: 0 gr<br>
+            grande: 0 gr<br>
+            extra grande: 0 gr<br>
+            </p>
+
+            <p><b>Total en dólares vendido por tamaño del helado:</b> <br>
+            pequeño: US$ 0<br>
+            mediano: US$ 0<br>
+            grande: US$ 0<br>
+            extra grande: US$ 0<br>
+            </p>
+
+            <p><b>Total general: US$</b> 0</p>
+        </div>
+    </main>
+    
+    <script src="main.js"></script>
+</body>
+</html>
